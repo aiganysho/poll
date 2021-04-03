@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block menu %}
+    <li><a href="{% url "add-poll" %}">Создать опроса</a></li>
+    <li><a href="{% url "update-poll" poll.id %}">Редактировать</a></li>
+    <li><a href="{% url "delete-poll" poll.id %}">Удалить</a></li>
+    <li><a href="{% url "add-choice" poll.id %}">Добавить ответ</a></li>
+{% endblock menu %}
+
+{% block page_header %}Опрос {{poll.id }}{% endblock page_header %}
+
+{% block content %}
+    <p>Вопрос: {{ poll.question }}</p>
+    <p>Дата и время: {{ poll.date_time }}</p>
+
+
+    <h2>Ответы:</h2>
+    {% if not poll.answers.all %}
+        <h2>No trackers</h2>
+    {% endif %}
+
+    {% for answer in poll.answers.all %}
+        <p>{{ answer.text }}</p>
+    {% empty %}
+        <p>Нет ответов :(</p>
+    {% endfor %}
+{% endblock content %}
