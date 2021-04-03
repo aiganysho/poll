@@ -1,0 +1,140 @@
+[
+{
+  "model": "webapp.poll",
+  "pk": 1,
+  "fields": {
+    "question": "yewiugd weyfgegfiwpeufh gufiwefghlawiu egfew",
+    "date_time": "2021-04-03T06:38:43.167Z"
+  }
+},
+{
+  "model": "webapp.poll",
+  "pk": 2,
+  "fields": {
+    "question": "iujyhrtb uyhrbty juyhb gh 6yuh4ethg",
+    "date_time": "2021-04-03T06:43:29.750Z"
+  }
+},
+{
+  "model": "webapp.poll",
+  "pk": 3,
+  "fields": {
+    "question": "wyeg fhweuiofh w",
+    "date_time": "2021-04-03T06:52:03.198Z"
+  }
+},
+{
+  "model": "webapp.poll",
+  "pk": 4,
+  "fields": {
+    "question": "Насколько внимательно слушали Вас представители центра обслуживания клиентов?",
+    "date_time": "2021-04-03T06:54:26.454Z"
+  }
+},
+{
+  "model": "webapp.poll",
+  "pk": 5,
+  "fields": {
+    "question": "Насколько понятна была информация, которую Вы получили у нашего обслуживания клиентов?",
+    "date_time": "2021-04-03T06:56:45.436Z"
+  }
+},
+{
+  "model": "webapp.poll",
+  "pk": 6,
+  "fields": {
+    "question": "По какой причине Вы вошли в наш интернет-магазин?",
+    "date_time": "2021-04-03T06:58:14.310Z"
+  }
+},
+{
+  "model": "webapp.poll",
+  "pk": 7,
+  "fields": {
+    "question": "Вы бы рекомендовали нашу компанию другим людям?",
+    "date_time": "2021-04-03T07:00:19.830Z"
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 1,
+  "fields": {
+    "text": "dcvertbh35yt",
+    "poll": 2
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 2,
+  "fields": {
+    "text": "Не слишком внимательно",
+    "poll": 4
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 3,
+  "fields": {
+    "text": "Внимательно",
+    "poll": 4
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 4,
+  "fields": {
+    "text": "Почти понятна",
+    "poll": 4
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 5,
+  "fields": {
+    "text": "Почти понятна",
+    "poll": 5
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 6,
+  "fields": {
+    "text": "Получение информации",
+    "poll": 6
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 7,
+  "fields": {
+    "text": "Я не знаю",
+    "poll": 7
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 8,
+  "fields": {
+    "text": "Несомненно да",
+    "poll": 7
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$216000$xT0jRg83pArd$rG9Pd89Gz6dSe/vZkVkVYvW9urI3Eceizud6qf0p62A=",
+    "last_login": "2021-04-03T06:38:17.962Z",
+    "is_superuser": true,
+    "username": "aiganysh",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2021-04-03T06:37:39.015Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
