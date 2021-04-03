@@ -14,12 +14,12 @@
 
 
     <h2>Ответы:</h2>
-    {% if not poll.answers.all %}
-        <h2>No trackers</h2>
+    {% if not poll.lists.all %}
+        <h2>No Answers</h2>
     {% endif %}
 
-    {% for answer in poll.answers.all %}
-        <p>{{ answer.text }}</p>
+    {% for answer in poll.lists.all %}
+        <p>{{ answer.text }}<a href="{% url "delete-choice" answer.id %}">Delete </a><a href="{% url "update-choice" answer.pk %}">Update </a></p>
     {% empty %}
         <p>Нет ответов :(</p>
     {% endfor %}

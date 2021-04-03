@@ -35,3 +35,21 @@ class Choice(models.Model):
 
     def __str__(self):
         return f'{self.id}. {self.text}: {self.poll}'
+
+
+class Answer(models.Model):
+    poll = models.ForeignKey(
+        'webapp.Poll',
+        on_delete=models.CASCADE,
+        related_name='answer',
+        null=False,
+        blank=False
+    )
+    date_time = models.DateTimeField(auto_now=True)
+    choice_answer = models.ForeignKey(
+        'webapp.Choice',
+        on_delete=models.CASCADE,
+        related_name='choice',
+        null=False,
+        blank=False
+    )

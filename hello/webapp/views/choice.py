@@ -20,14 +20,6 @@ class ChoiceCreate(CreateView):
     template_name = 'choice/choice_create.html'
     form_class = ChoiceForm
     model = Choice
-    #
-    # def form_valid(self, form):
-    #     poll = get_object_or_404(Poll, id=self.kwargs.get('pk'))
-    #     answer = form.save(commit=False)
-    #     answer.poll = poll
-    #     answer.save()
-    #     form.save_m2m()
-    #     return redirect(reverse('view-poll', kwargs={'pk': poll.pk}))
 
     def get_success_url(self):
         return reverse(
@@ -48,7 +40,8 @@ class ChoiceUpdate(UpdateView):
     context_object_name = 'answer'
 
     def get_success_url(self):
-        return reverse('view-choice', kwargs={'pk': self.kwargs.get('pk')})
+        return reverse('view-poll', kwargs={'pk': self.kwargs.get('pk')})
+
 
 class ChoiceDelete(DeleteView):
     model = Choice
