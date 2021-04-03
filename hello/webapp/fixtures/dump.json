@@ -1,18 +1,10 @@
 [
 {
   "model": "webapp.poll",
-  "pk": 1,
-  "fields": {
-    "question": "yewiugd weyfgegfiwpeufh gufiwefghlawiu egfew",
-    "date_time": "2021-04-03T06:38:43.167Z"
-  }
-},
-{
-  "model": "webapp.poll",
   "pk": 2,
   "fields": {
-    "question": "iujyhrtb uyhrbty juyhb gh 6yuh4ethg",
-    "date_time": "2021-04-03T06:43:29.750Z"
+    "question": "iujyhrtb uyhrbty juyhb gh 6yuh4eth564848g",
+    "date_time": "2021-04-03T08:52:34.099Z"
   }
 },
 {
@@ -56,11 +48,19 @@
   }
 },
 {
-  "model": "webapp.choice",
-  "pk": 1,
+  "model": "webapp.poll",
+  "pk": 8,
   "fields": {
-    "text": "dcvertbh35yt",
-    "poll": 2
+    "question": "нпнп 67ншгпн",
+    "date_time": "2021-04-03T09:53:53.833Z"
+  }
+},
+{
+  "model": "webapp.poll",
+  "pk": 9,
+  "fields": {
+    "question": "нпнп 67ншгпн",
+    "date_time": "2021-04-03T09:54:38.824Z"
   }
 },
 {
@@ -117,6 +117,46 @@
   "fields": {
     "text": "Несомненно да",
     "poll": 7
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 9,
+  "fields": {
+    "text": "eishd hudwiehfhuei efew tyryr5ytrhyrt",
+    "poll": 5
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 10,
+  "fields": {
+    "text": "eishd hudwiehfhuei efew",
+    "poll": 5
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 11,
+  "fields": {
+    "text": "4trythjt6r yrht 5trergr",
+    "poll": 3
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 12,
+  "fields": {
+    "text": "/8577777",
+    "poll": 6
+  }
+},
+{
+  "model": "webapp.choice",
+  "pk": 13,
+  "fields": {
+    "text": "dygyeg eywrghrt",
+    "poll": 4
   }
 },
 {
